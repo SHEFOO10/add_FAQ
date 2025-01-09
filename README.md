@@ -21,64 +21,36 @@ You can install the package via composer:
 
 ```bash
 composer require shefoo10/add-faq
+
+php artisan add-faq:install
+```
+## Expected Output
+```text
+Publishing migrations...
+
+ Would you like to run the migrations now? (yes/no) [no]:
+ > yes
+
+Running migrations...
+
+   INFO  Running migrations.
+
+  2025_01_09_224821_create_f_a_q_s_table ...................................................... 22.33ms DONE
+
+Publishing service provider...
+add-faq has been installed!
+
+   INFO  Publishing [add-faq-model] assets.
+
+  Copying file [C:\Users\DONATELO\IdeaProjects\add_FAQ\Models\FAQ.php] to [C:\Users\DONATELO\IdeaProjects\{ Project Name }\app\Models\FAQ.php]  DONE
+
+ Which panel do you want to install the package for? [admin]:
+ > admin
+
+File [path / to / { Project Name } \app\Filament/Admin/Resources/FAQResource.php] Added to Admin Panel
+File [path / to / { Project Name } \app\Filament/Admin/Resources/FAQResource/Pages/CreateFAQ.php] Added to Admin Panel
+File [path / to / { Project Name } \app\Filament/Admin/Resources/FAQResource/Pages/EditFAQ.php] Added to Admin Panel
+File [path / to / { Project Name } \app\Filament/Admin/Resources/FAQResource/Pages/ListFAQs.php] Added to Admin Panel
+
 ```
 
-You can publish and run the migrations with:
-
-```bash
-php artisan vendor:publish --tag="add-faq-migrations"
-php artisan migrate
-```
-
-You can publish the config file with:
-
-```bash
-php artisan vendor:publish --tag="add-faq-config"
-```
-
-This is the contents of the published config file:
-
-```php
-return [
-];
-```
-
-Optionally, you can publish the views using
-
-```bash
-php artisan vendor:publish --tag="add-faq-views"
-```
-
-## Usage
-
-```php
-$addFAQ = new Aquadic\AddFAQ();
-echo $addFAQ->echoPhrase('Hello, Aquadic!');
-```
-
-## Testing
-
-```bash
-composer test
-```
-
-## Changelog
-
-Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
-
-## Contributing
-
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
-
-## Security Vulnerabilities
-
-Please review [our security policy](../../security/policy) on how to report security vulnerabilities.
-
-## Credits
-
-- [SHEFOO10](https://github.com/SHEFOO10)
-- [All Contributors](../../contributors)
-
-## License
-
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.

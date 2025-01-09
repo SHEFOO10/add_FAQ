@@ -47,7 +47,7 @@ class AddFAQCommand extends Command
             }
             $filename = $destinationDir. ($dir ? "/FAQResource/$dir": '') ."/$filename";
             $filesystem->put($filename, $content);
-            $this->line("File [$filename] Added $panel Panel");
+            $this->line("File [$filename] Added to $panel Panel");
         }
 
 
