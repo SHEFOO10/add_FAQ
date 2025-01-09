@@ -1,0 +1,13 @@
+<?php
+
+namespace App\Filament\{{panel}}\Resources\FAQResource\Pages;
+
+use App\Filament\{{panel}}\Resources\FAQResource;
+use App\Traits\Filament\FilamentTranslatedLabelResource;
+use Filament\Resources\Pages\CreateRecord;
+
+class CreateFAQ extends CreateRecord
+{
+    use FilamentTranslatedLabelResource;
+    protected static string $resource = FAQResource::class;
+}

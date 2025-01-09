@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) :vendor_name <author@domain.com>
+Copyright (c) SHEFOO10 <445585913@g102019.moe.edu.eg>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
