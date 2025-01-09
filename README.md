@@ -5,15 +5,16 @@
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/shefoo10/add-faq/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/shefoo10/add-faq/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/shefoo10/add-faq.svg?style=flat-square)](https://packagist.org/packages/shefoo10/add-faq)
 
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
+add-faq Package for Laravel
 
-## Support us
+The add-faq package is a simple and efficient solution for adding FAQ functionality to your Laravel application. This package automates the creation of Filament resources, models, and migrations for managing Frequently Asked Questions (FAQs) in a structured and easy-to-use interface.
 
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/add_FAQ.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/add_FAQ)
+Key Features:
+Automatic Model Creation: Generates a Faq model to interact with the FAQs data.
+Migration Setup: Automatically creates the migration file for the faqs table.
+Filament Resource: Provides a Filament resource to easily manage FAQs through the given panel.
 
-We invest a lot of resources into creating [best in class open source packages](https://spatie.be/open-source). You can support us by [buying one of our paid products](https://spatie.be/open-source/support-us).
 
-We highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using. You'll find our address on [our contact page](https://spatie.be/about-us). We publish all received postcards on [our virtual postcard wall](https://spatie.be/open-source/postcards).
 
 ## Installation
 
