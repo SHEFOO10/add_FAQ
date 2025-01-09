@@ -8,7 +8,7 @@ return new class extends Migration
 {
     public function up(): void
     {
-        Schema::create('add_faq_table', function (Blueprint $table) {
+        Schema::create('faqs', function (Blueprint $table) {
             $table->id();
 
             $table->json('question')->nullable();

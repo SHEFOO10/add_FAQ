@@ -1,6 +1,6 @@
 <?php
 
-namespaceApp\Filament\{{panel}}\Resources\FAQResource\Pages;
+namespace App\Filament\{{panel}}\Resources\FAQResource\Pages;
 
 use App\Filament\{{panel}}\Resources\FAQResource;
 use App\Traits\Filament\FilamentTranslatedLabelResource;
