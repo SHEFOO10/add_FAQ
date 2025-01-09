@@ -49,7 +49,7 @@ class AddFAQCommand extends Command
             $filesystem->put($filename, $content);
             $this->line("File [$filename] Added to $panel Panel");
         }
-
+        
 
 
 //        $this->publishes([
